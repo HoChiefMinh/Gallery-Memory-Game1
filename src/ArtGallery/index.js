@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
+import './card.css';
 
-const ArtGallery = props => {
-  (
-    <div className='card' onClick={() => props.removeFriend(props.id)}>
+function ArtGallery (props) {
+  return (
+    <div className='card'> 
       <div className='img-container'>
-        <img alt={props.artist} src={props.image} />
+        <img className='painting' alt={props.artist} src={props.image} onClick={() => props.handleClickedImage(props.id)} />
       </div>
       <div className='overlay'>
         <div className='text'>

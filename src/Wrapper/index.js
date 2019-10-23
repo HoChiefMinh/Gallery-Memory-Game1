@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './wrapper.css';
 
 const Wrapper = props => {
   return <div className='wrapper'>{props.children}</div>;
