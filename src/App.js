@@ -3,7 +3,7 @@ import paintings from './paintings.json';
 import ArtGallery from './ArtGallery/index';
 import Wrapper from './Wrapper/index';
 import './index.css';
-// import './App.css';
+// import './App.css'
 
 let highScoreCount = 0;
 
@@ -36,7 +36,7 @@ class App extends Component {
         this.setState({ highScore: highScoreCount });
       }
     } else if (this.state.score <= 11 && paintingSelected[0].painting) {
-      this.setState({ status: "Tsk tsk, don't be greedy!" });
+      this.setState({ message: "Tsk tsk, don't be greedy!" });
       this.setState({ score: 0 });
       paintings.forEach(paintings => {
         paintings.painting = false;
@@ -45,7 +45,7 @@ class App extends Component {
       console.log(paintings);
     } else if (this.state.score === 11 && !paintingSelected[0].painting) {
       this.setState({
-        status:
+        message:
           'Congratulations! You masterfully selected each individual work of Art!'
       });
       this.setState({ highScore: 12 });
@@ -76,16 +76,16 @@ class App extends Component {
       <React.Fragment>
         <div className='row'>
           <h1 className='main-header'>Museum Memory Game</h1>
-        
-            <div className='col-md-3 col-right'><h6>Score: {this.state.score}</h6></div>
-            <div className='col-md-3 col-right'>
-              <h6>High Score: {this.state.highScore}</h6>
-            </div>
-            <div className='col-md-12 col-right'>{this.state.message}</div>
-
-          
+          <div className='col-md-3 col-right'>
+            <h6>Score: {this.state.score}</h6>
+          </div>
+          <div className='col-md-3 col-right'>
+            <h6>High Score: {this.state.highScore}</h6>
+          </div>
+          <div className='col-md-12 col-right'>{this.state.message}</div>
         </div>
         <Wrapper>
+        {/* <img src='/images/1bg.jpg' alt='empty gallery' /> */}
           {this.state.paintings.map(paintings => (
             <ArtGallery
               key={paintings.id}
