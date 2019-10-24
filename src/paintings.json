@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "name": "The Last Supper",
+    "title": "The Last Supper",
     "image": "../images/art1.jpg",
     "artist": "Leonardo Da Vinci",
     "year": "1495-1498"
   },
   {
     "id": 2,
-    "name": "The Persistence of Memory",
+    "title": "The Persistence of Memory",
     "image": "../images/art2.jpg",
     "artist": "Salvador Dali",
     "year": "1931"
   },
   {
     "id": 3,
-    "name": "Mona Lisa",
+    "title": "Mona Lisa",
     "image": "../images/art3.jpg",
     "artist": "Leonardo Da Vinci",
     "year": "1503"
   },
   {
     "id": 4,
-    "name": "Parliament of Fowls",
+    "title": "Parliament of Fowls",
     "image": "../images/art4.jpg",
     "artist": "Oleg Shuplyak",
     "year": "1950"
   },
   {
     "id": 5,
-    "name": "Girl with a Pearl Earring",
+    "title": "Girl with a Pearl Earring",
     "image": "../images/art5.jpg",
     "artist": "Johannes Vermeer",
     "year": "1665"
   },
   {
     "id": 6,
-    "name": "Young Woman at a Window",
+    "title": "Young Woman at a Window",
     "image": "../images/art6.jpg",
     "artist": "Salvador Dali",
     "year": "1925"
   },
   {
     "id": 7,
-    "name": "Love Piero",
+    "title": "Love Piero",
     "image": "../images/art7.jpg",
     "artist": "Salvador Dali",
     "year": "1430"
   },
   {
     "id": 8,
-    "name": "Seated Woman",
+    "title": "Seated Woman",
     "image": "../images/art8.jpg",
     "artist": "Pablo Picasso",
     "year": "1927"
   },
   {
     "id": 9,
-    "name": "The Creation of Adam",
+    "title": "The Creation of Adam",
     "image": "../images/art9.jpg",
     "artist": "Michelangelo",
     "year": "1512"
   },
   {
     "id": 10,
-    "name": "The Starry Night",
+    "title": "The Starry Night",
     "image": "../images/art10.jpg",
     "artist": "Vincent van Gogh",
     "year": "1889"
   },
   {
     "id": 11,
-    "name": "The Great Masturbator",
+    "title": "The Great Masturbator",
     "image": "../images/art11.jpg",
     "artist": "Salvador Dali",
     "year": "1929"
   },
   {
     "id": 12,
-    "name": "The Old Guitarist",
+    "title": "The Old Guitarist",
     "image": "../images/art12.jpg",
     "artist": "Pablo Picasso",
     "year": "1903-1904"

@@ -6,7 +6,7 @@
   border: none !important;
   background: none;
   background-repeat: no-repeat;
-}
+  box-shadow: 10px 10px 8px #888888;}
 
 ul {
   list-style: none;
@@ -18,7 +18,4 @@ ul {
   width: 250px;
 }
 
-.card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+

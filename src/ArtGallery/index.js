@@ -6,7 +6,7 @@ function ArtGallery(props) {
     <div className='card'>
       <div className='img-container'>
         <img
-          className='painting' 
+          className='each-painting' 
           alt={props.title}
           src={props.image}
           onClick={() => props.handleClickedImage(props.id)}
