@@ -4,12 +4,13 @@
   margin-bottom: 1rem;
   margin: 1rem;
   border: none !important;
-  background: none;
+  /* background: none; */
   background-repeat: no-repeat;
   box-shadow: 10px 10px 8px #888888;
 }
 
 ul {
+  margin-top: 15px;
   list-style: none;
   font-size: 15px;
 }

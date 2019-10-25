@@ -3,7 +3,7 @@ import paintings from './paintings.json';
 import ArtGallery from './ArtGallery/index';
 import Wrapper from './Wrapper/index';
 import './index.css';
-// import './App.css'
+import './App.css';
 
 let highScoreCount = 0;
 
@@ -85,7 +85,7 @@ class App extends Component {
           <div className='col-md-12 col-right'>{this.state.message}</div>
         </div>
         <Wrapper>
-        {/* <img src='/images/1bg.jpg' alt='empty gallery' /> */}
+          {/* <img src='/images/1bg.jpg' alt='empty gallery' /> */}
           {this.state.paintings.map(paintings => (
             <ArtGallery
               key={paintings.id}

@@ -1,5 +1,9 @@
-html, body{
-  background: url('../public/images/1background.jpg');
+div.wrapper {
+  background: url('./1bg.jpg');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
 }
 
 .App {

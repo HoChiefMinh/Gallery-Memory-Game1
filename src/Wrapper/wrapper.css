@@ -11,7 +11,7 @@
 }
 
 p.footer-content {
-  color: #ffffff;
+  color: #050505;
   margin: 10px;
 }
 
@@ -19,7 +19,7 @@ p.footer-content {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: black;
+  background-color:#fffddf;
   width: 100%;
   opacity: 0.8;
 }
