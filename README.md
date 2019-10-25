@@ -4,7 +4,7 @@
 This is an art gallery game that will put your memory to the test. Here's how to play, click each individual painting once, and if you repeat you lose. Don't worry, you highscore will be saved, but your current score will revert back to 0. Enjoy!
 
 ## Deployment 
-Try here: https://morning-taiga-21607.herokuapp.com
+Try here: https://shielded-tundra-98421.herokuapp.com
 
 ## Screenshot
 ![Alt text](public/images/ss.png)
